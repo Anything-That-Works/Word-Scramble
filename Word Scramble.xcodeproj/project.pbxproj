@@ -13,6 +13,7 @@
 		0551C019272356B5002F4149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0551C017272356B5002F4149 /* Main.storyboard */; };
 		0551C01B272356B7002F4149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0551C01A272356B7002F4149 /* Assets.xcassets */; };
 		0551C01E272356B7002F4149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0551C01C272356B7002F4149 /* LaunchScreen.storyboard */; };
+		0551C02627235828002F4149 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0551C02527235828002F4149 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0551C01A272356B7002F4149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0551C01D272356B7002F4149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0551C01F272356B7002F4149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0551C02527235828002F4149 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0551C01A272356B7002F4149 /* Assets.xcassets */,
 				0551C01C272356B7002F4149 /* LaunchScreen.storyboard */,
 				0551C01F272356B7002F4149 /* Info.plist */,
+				0551C02527235828002F4149 /* start.txt */,
 			);
 			path = "Word Scramble";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0551C01E272356B7002F4149 /* LaunchScreen.storyboard in Resources */,
+				0551C02627235828002F4149 /* start.txt in Resources */,
 				0551C01B272356B7002F4149 /* Assets.xcassets in Resources */,
 				0551C019272356B5002F4149 /* Main.storyboard in Resources */,
 			);
@@ -305,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
